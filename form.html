@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM Validate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- OWN FORM VALIDATION------ -->
+    <form id="myForm" onsubmit="validateForm(event)" action="info.html">
+        <h1>Register</h1>
+        <label>User Name</label>
+        <input id="name" type="text" placeholder="Name" />
+        <label id="lbluser">❌</label>
+        <label>Email</label>
+        <input id="mail" type="email" placeholder="Email" />
+        <label id="lblemail">❌</label>
+        <label>Password</label>
+        <input id="pwd" type="password" placeholder="Password" />
+        <label id="lblpwd" >❌</label>
+        <label>Confirm Password</label>
+        <input id="cpwd" type="password" placeholder="Confirm Password" />
+        <label id="lblCpwd" >❌</label>
+        <button type="submit">Submit</button>
+      </form>
+
+    <script src="form.js"></script>
+</body>
+</html>
